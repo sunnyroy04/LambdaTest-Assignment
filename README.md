@@ -19,25 +19,29 @@ Double-click the downloaded installer and complete the installation by selecting
 Default Android SDK installation path: 
 # C:\Users\sunny\AppData\Local\Android\Sdk
 
-# Step 3: Open Android Studio
+# Step 3: 
+Open Android Studio
 # After installation, open Android Studio.
 
-# Step 4: Create New Project (DemoAndrois14)
-# In Android Studio, click "New Project" and configure the following:
-# Name: DemoAndrois14
-# Package Name: com.example.demoandrois14 
-# Save Location: C:\Users\sunny\AndroidStudioProjects\DemoAndrois14
-# Language: Kotlin (or Java)
-# Minimum SDK: API 24 for android 7 (or as per requirement)
+# Step 4: 
+Create New Project (DemoAndrois14)
+ In Android Studio, click "New Project" and configure the following:
+ Name: DemoAndrois14
+ Package Name: com.example.demoandrois14 
+ Save Location: C:\Users\sunny\AndroidStudioProjects\DemoAndrois14
+ Language: Kotlin (or Java)
+ Minimum SDK: API 24 for android 7 (or as per requirement)
 
-# Click Finish and let Android Studio create the project.
+ Click Finish and let Android Studio create the project.
 
-# Step 5: Create an Android Virtual Device (AVD)
-# In Android Studio, go to Tools > Device Manager or click the Device Manager icon.
-# Click "Create Device" and select a phone model (e.g., Pixel 4).
-# Choose the Android 14 system image.
-# Click Finish to complete the setup.
+# Step 5: 
+Create an Android Virtual Device (AVD)
+ In Android Studio, go to Tools > Device Manager or click the Device Manager icon.
+ Click "Create Device" and select a phone model (e.g., Pixel 4).
+ Choose the Android 14 system image.
+ Click Finish to complete the setup.
 
-# Step 6: Launch the Emulator (Using Command Prompt/PowerShell)
+# Step 6: 
+Launch the Emulator (Using Command Prompt/PowerShell)
 # cd C:\Users\sunny\AppData\Local\Android\Sdk\emulator
 # emulator -avd DemoAndrois14
