@@ -43,5 +43,10 @@ Create an Android Virtual Device (AVD)
 
 # Step 6: 
 Launch the Emulator (Using Command Prompt/PowerShell)
-# cd C:\Users\sunny\AppData\Local\Android\Sdk\emulator
-# emulator -avd DemoAndrois14
+cd C:\Users\sunny\AppData\Local\Android\Sdk\emulator
+emulator -avd DemoAndrois14
+
+
+
+
+
