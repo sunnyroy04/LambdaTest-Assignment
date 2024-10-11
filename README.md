@@ -49,10 +49,9 @@ then run      emulator -avd DemoAndrois14
 
 
 
-#2. Open an Emulator and create a new Android Virtual Device [ Prefer Android 14 System
-Image, other lower Android OS will also work ]
-#a. Write a Command used to launch the emulator, if any.
-Launch the Emulator (Using Command Prompt/PowerShell)
+# 2. Open an Emulator and create a new Android Virtual Device [ Prefer Android 14 System Image, other lower Android OS will also work ]
+# a. Write a Command used to launch the emulator, if any.
+ Launch the Emulator (Using Command Prompt/PowerShell)
 run :  cd C:\Users\sunny\AppData\Local\Android\Sdk\emulator   ,
 then run :     emulator -avd DemoAndrois14
 #b. Take a pic of the running virtual device and attach here.
