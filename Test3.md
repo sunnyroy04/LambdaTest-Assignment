@@ -1,16 +1,29 @@
-# Task 3:
-# 1. Make a continuous Video of below steps
-- Open an Emulator with a virtual device.
-- --- opened Emulator With virtual device
-- Launch installed Firefox inside virtual device
-- ----launched
-- Now Adb Shell into the device and list the script permission using ls command
-that shows its permission.
------  Changed Permission of the file test.sh
-- Run the Script, its output should be displayed.
-- -----run test.sh 
-- Stop the Video Recording.
-videos are atteced
+# LambdaTest-Assignment
+
+## Task 3
+
+### 1. Make a Continuous Video of Below Steps
+
+- **Open an Emulator with a Virtual Device**  
+  - Opened the Emulator with a virtual device (DemoAndroid14).
+
+- **Launch Installed Firefox Inside Virtual Device**  
+  - Launched Firefox inside the virtual device.
+
+- **Adb Shell Into the Device and List the Script Permissions Using the `ls` Command**  
+  - Used the `adb shell` to access the device and listed the script permissions using the `ls` command.
+  - Changed the permissions of the `test.sh` script.
+
+- **Run the Script, Its Output Should Be Displayed**  
+  - Ran the `test.sh` script on the emulator.
+  - The output of the script was displayed:  
+    `Hi from Android!`
+
+- **Stop the Video Recording**  
+  - Stopped the video recording after the execution.
+
+**Video is attached.**
+
 
 https://github.com/user-attachments/assets/d807ff5e-f8e4-48a9-931f-4f3d8e46c79e
 
