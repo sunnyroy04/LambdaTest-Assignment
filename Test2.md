@@ -1,16 +1,23 @@
-# Task 2: Prefer using Command line Terminal/PowerShell
-# 1. On your machine create a file named test.sh [ Document all the steps performed ]
-Created file test.sh in my device at cd C:\Users\sunny\Desktop
-# Create the New Script: Use the following commands to create the test.sh file:
-echo '#!/bin/bash' > test.sh
-echo 'echo "Hi from Android!"' >> test.sh
+echo "# LambdaTest-Assignment`n`n## Task 2: Prefer using Command Line Terminal/PowerShell`n`n### 1. On Your Machine, Create a File Named test.sh`n- Created the file **test.sh** in my device at `C:\Users\sunny\Desktop`." > task2.md
+echo "`n#### Create the New Script:`" >> task2.md
+echo "`n- Use the following commands to create the **test.sh** file:`" >> task2.md
+echo "`n  \`\`\`bash`n  echo '#!/bin/bash' > test.sh`n  echo 'echo \"Hi from Android!\"' >> test.sh`n  \`\`\`" >> task2.md
+echo "`n### 2. Push the Script to the Emulator`" >> task2.md
+echo "`n#### Step 1: Open PowerShell`" >> task2.md
+echo "`n- Open PowerShell and navigate to the Android SDK platform-tools directory:`" >> task2.md
+echo "`n  \`\`\`powershell`n  cd C:\Users\sunny\AppData\Local\Android\Sdk\platform-tools`n  \`\`\`" >> task2.md
+echo "`n#### Step 2: Start Emulator`" >> task2.md
+echo "`n- Make sure your emulator is running. You can start it with the following command (replace **DemoAndroid14** with your emulator's name):" >> task2.md
+echo "`n  \`\`\`powershell`n  emulator -avd DemoAndroid14`n  \`\`\`" >> task2.md
+echo "`n#### Step 3: Push the **test.sh** Script to the Emulator`" >> task2.md
+echo "`n- You can use the **adb push** command to copy the **test.sh** file to the emulator's file system:`" >> task2.md
+echo "`n  \`\`\`powershell`n  adb push C:\Users\sunny\Desktop\test.sh /data/local/tmp/`n  \`\`\`" >> task2.md
+echo "`n### 3. Execute the Script on the Emulator`" >> task2.md
+echo "`n- Once the script is pushed to the emulator, run the following command to execute it:" >> task2.md
+echo "`n  \`\`\`powershell`n  adb shell sh /data/local/tmp/test.sh`n  \`\`\`" >> task2.md
+echo "`n- You should see the output:`" >> task2.md
+echo "`n  \`Hi from Android!\`" >> task2.md
 
-# b Step 2: Push the Script to the Emulator
-Open PowerShell: If you haven't already, open PowerShell and navigate to the Android SDK platform-tools directory:
-
-cd C:\Users\sunny\AppData\Local\Android\Sdk\platform-tools
-# c start emulator 
-Start the Emulator: Make sure your emulator is running. You can start it with the following command (replace  DemoAndroid14 with your emulator's name):
 
  .\emulator -avd DemoAndroid14
 # d. Now push or copy the test.sh script in emulator from you machine
