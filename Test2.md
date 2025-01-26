@@ -1,41 +1,34 @@
-echo "# LambdaTest-Assignment`n`n## Task 2: Prefer using Command Line Terminal/PowerShell`n`n### 1. On Your Machine, Create a File Named test.sh`n- Created the file **test.sh** in my device at `C:\Users\sunny\Desktop`." > task2.md
-echo "`n#### Create the New Script:`" >> task2.md
-echo "`n- Use the following commands to create the **test.sh** file:`" >> task2.md
-echo "`n  \`\`\`bash`n  echo '#!/bin/bash' > test.sh`n  echo 'echo \"Hi from Android!\"' >> test.sh`n  \`\`\`" >> task2.md
-echo "`n### 2. Push the Script to the Emulator`" >> task2.md
-echo "`n#### Step 1: Open PowerShell`" >> task2.md
-echo "`n- Open PowerShell and navigate to the Android SDK platform-tools directory:`" >> task2.md
-echo "`n  \`\`\`powershell`n  cd C:\Users\sunny\AppData\Local\Android\Sdk\platform-tools`n  \`\`\`" >> task2.md
-echo "`n#### Step 2: Start Emulator`" >> task2.md
-echo "`n- Make sure your emulator is running. You can start it with the following command (replace **DemoAndroid14** with your emulator's name):" >> task2.md
-echo "`n  \`\`\`powershell`n  emulator -avd DemoAndroid14`n  \`\`\`" >> task2.md
-echo "`n#### Step 3: Push the **test.sh** Script to the Emulator`" >> task2.md
-echo "`n- You can use the **adb push** command to copy the **test.sh** file to the emulator's file system:`" >> task2.md
-echo "`n  \`\`\`powershell`n  adb push C:\Users\sunny\Desktop\test.sh /data/local/tmp/`n  \`\`\`" >> task2.md
-echo "`n### 3. Execute the Script on the Emulator`" >> task2.md
-echo "`n- Once the script is pushed to the emulator, run the following command to execute it:" >> task2.md
-echo "`n  \`\`\`powershell`n  adb shell sh /data/local/tmp/test.sh`n  \`\`\`" >> task2.md
-echo "`n- You should see the output:`" >> task2.md
-echo "`n  \`Hi from Android!\`" >> task2.md
+# LambdaTest-Assignment
 
+## Task 2: Prefer using Command Line Terminal/PowerShell
 
- .\emulator -avd DemoAndroid14
-# d. Now push or copy the test.sh script in emulator from you machine
- Push the New Script to the Emulator: Once the emulator is running, push the hello_android.sh script to the /sdcard directory:
+### 1. On Your Machine, Create a File Named test.sh
+- Created the file **test.sh** on my device at `C:\Users\sunny\Desktop`.
 
-.\adb push C:\Users\sunny\Desktop\hello_android.sh /sdcard/
+#### Create the New Script:
+- The following steps were followed to create the **test.sh** file:
+  1. Opened PowerShell or terminal.
+  2. Created a new file **test.sh** using the commands:
+     - `echo '#!/bin/bash' > test.sh`
+     - `echo 'echo "Hi from Android!"' >> test.sh`
 
+### 2. Push the Script to the Emulator
 
-# e. Now open the shell in Android Emulator
-.\adb shell
+#### Step 1: Open PowerShell
+- Opened PowerShell and navigated to the Android SDK platform-tools directory by running the command:
+  - `cd C:\Users\sunny\AppData\Local\Android\Sdk\platform-tools`
 
-# f. Change the permission of the file to 755
-chmod 755 /data/local/tmp/hello_android.sh
+#### Step 2: Start Emulator
+- Started the emulator using the following command (replacing **DemoAndroid14** with the emulator name):
+  - `emulator -avd DemoAndroid14`
 
-# g. Now run the test.sh script and share the Picture.
-  output is 
-emu64xa:/ $ chmod 755 /sdcard/test.sh                                                                                                          
-emu64xa:/ $ sh /sdcard/test.sh                                                                                                                  
-Hi from Android!
-![Screenshot 2024-10-11 111404](https://github.com/user-attachments/assets/d4837efb-b6cb-46d6-88ac-3c607ce7d09c)
-![Screenshot 2024-10-11 111505](https://github.com/user-attachments/assets/d047cae1-c0fe-43e9-938c-e3eb8c84dfbd)
+#### Step 3: Push the **test.sh** Script to the Emulator
+- Pushed the **test.sh** file to the emulator by using the **adb push** command:
+  - `adb push C:\Users\sunny\Desktop\test.sh /data/local/tmp/`
+
+### 3. Execute the Script on the Emulator
+- After pushing the script, executed it on the emulator with the following command:
+  - `adb shell sh /data/local/tmp/test.sh`
+
+- The output displayed on the emulator was:  
+  `Hi from Android!`
