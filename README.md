@@ -25,7 +25,7 @@ Default Android SDK installation path:
 
 # Step 3: 
 Open Android Studio
-# After installation, open Android Studio.
+After installation, open Android Studio.
 
 # Step 4: 
 Create New Project (DemoAndrois14)
